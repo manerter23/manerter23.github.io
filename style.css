@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+html{
+ scroll-behavior: smooth;
+}
+header{
+	background-image: url(images/background.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	background-blend-mode: overlay;
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+	text-align: center;
+}
+#blog{
+	background-image: url(images/background.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	background-blend-mode: overlay;
+	height:1700px;
+	background-size:cover;
+	background-position: center;
+	text-align: center;
+	background-position: fixed;
+
+}
+
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration : none;
+	color: #fff;
+	padding: 5px 40px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #808080;
+	color: #000;
+	transition: 0.6s ease;
+
+}
+
+.home{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	transition: 0.6s ease;
+
+}
+.logo{
+	float: left;
+	margin-top: 25px;
+	transition: 0.6s ease;
+
+}
+.main{
+	max-width: 1300px;
+	margin: auto;
+
+}
+.logo{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	transition: 0.6s ease;
+
+}
+.about{
+	
+	transition: 0.6s ease;
+}
+.title{
+	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+}
+.title h1 {
+  	color: #ADD8E6;
+  	font-size: 55px;
+}
+.button{
+	position: absolute;
+ 	transform: translate(-50%,-50%);
+}
+.btnn{
+	border: 3px solid #6495ED;
+	padding: 10px 40px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btnn:hover{
+	background-color: #808080;
+	color: #000;
+}
+#page-footer{
+	background-color: #222;
+	color: #fff;
+	padding: 50px 0 50px;
+	transition: 0.6s ease;
+}
+.footer-copyright{
+	color: #666;
+
+}
+.forlogo{
+	padding-top : 90px;
+	padding-left: 90px;
+	
+}
+/*  For Course Gallery */
+
+	
+#course{
+	background-image: url(images/library.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-blend-mode: overlay;
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+	text-align: center;
+}
+.courseGallery h1{
+	color: #DAA520;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,50%);
+	font-size: 40px;
+}
+
+/*      F O R     B L O G      */
+
+#blogbg{
+	background-color: #000000;
+	width: 1100px;
+    height: 1300px; 
+    position: absolute;
+ 	transform: translate(10%,20%);
+}
+
+.titleblog h1 {
+ 	position: absolute;
+ 	top: 5%;
+ 	left: 30%;
+ 	transform: translate(-18%,-30%);
+ 	font-family: gorgia;
+  	color: #ADD8E6;
+  	font-size: 80px;
+}
+.titleblog h2 {
+ 	position: absolute;
+ 	top: 20%;
+ 	transform: translate(20%,30%);
+ 	font-family: Bookman;
+  	color: #ADD8E6;
+  	font-size: 40px;
+}
+.titleblog p {
+	text-align: left;
+ 	position: absolute;
+ 	top: 12%;
+ 	left: 20%;
+ 	transform: translate(-11%,30%);
+ 	font-family: arial;
+  	color: #ADD8E6;
+  	font-size: 27px;
+
+}
+
